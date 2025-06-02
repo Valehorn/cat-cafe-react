@@ -5,7 +5,7 @@ export const StyledButton = styled(Link)`
 display: block;
 min-height: 60px;
 font-size: ${(props) => props.theme.fontSizeDefault};
-min-width: ${props => `${props.$minwidth || '100%'}px`};
+min-width: ${props => `${props.$minwidth || '100'}px`};
 max-width: 700px;
 font-weight: 700;
 line-height: 58px;

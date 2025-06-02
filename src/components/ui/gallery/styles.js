@@ -49,6 +49,7 @@ bottom: 0;
 left: -94px;
 height: 64px;
 width: 64px;
+min-width: ${props => `${props.$minwidth || '64'}px`};
 border-radius: 50%;
 padding: 0;
 

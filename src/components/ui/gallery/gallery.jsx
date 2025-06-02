@@ -79,7 +79,7 @@ function Gallery({
                         </SwiperSlide>
                     ))}
                 </StyledSwiperMini>
-                <StyledButtonLeft ref={navigationPrevRef}>
+                <StyledButtonLeft ref={navigationPrevRef} $minwidth={64}>
                     <LeftArrow />
                 </StyledButtonLeft>
                 <StyledButtonRight ref={navigationNextRef}>
